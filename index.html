@@ -1,17 +1,121 @@
-<!doctype html>
-<meta charset="utf-8">
-<title>ENGL 285 - Library Workshop Resources</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ENGL 285 - Library Workshop Resources</title>
+  <style>
+    :root {
+      --purple: #4b2e83;
+      --light-purple: #ece9f7;
+      --text: #222;
+      --white: #fff;
+      --gray: #666;
+    }
 
-<h1>ENGL 285 - Library Workshop Resources</h1>
-<p>If you can read this, the page is rendering correctly.</p>
+    body {
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(180deg, var(--light-purple) 0%, #f9f9fb 100%);
+      color: var(--text);
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
 
-<ul>
-  <li><a href="https://researchguides.case.edu/english" target="_blank">English Research Guide</a></li>
-  <li><a href="https://researchguides.case.edu/az/databases" target="_blank">Databases List</a></li>
-  <li><a href="https://researchguides.case.edu/az/databases?q=project%20muse" target="_blank">Project MUSE Database</a></li>
-  <li><a href="https://researchguides.case.edu/infolitksl" target="_blank">Mastering Research @ KSL</a></li>
-  <li><a href="https://case.edu/library/research-tools/get-research-help" target="_blank">Get Help from the Library</a></li>
-  <li><a href="https://case.edu/library/services/interlibrary-loan" target="_blank">Request an Item through Interlibrary Loan</a></li>
-  <li><a href="https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_formatting_and_style_guide.html" target="_blank">MLA Formatting and Style Guide</a></li>
-  <li><a href="https://owl.purdue.edu/owl/general_writing/common_writing_assignments/annotated_bibliographies/index.html" target="_blank">Annotated Bibliography Tips and Info</a></li>
-</ul>
+    header {
+      background-color: var(--purple);
+      color: var(--white);
+      text-align: center;
+      padding: 2.5rem 1rem;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.9rem;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+    }
+
+    main {
+      flex: 1;
+      max-width: 700px;
+      margin: 2.5rem auto;
+      padding: 0 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 1rem;
+    }
+
+    .button {
+      display: block;
+      background-color: var(--white);
+      border: 2px solid var(--purple);
+      border-radius: 12px;
+      padding: 1rem;
+      text-align: center;
+      font-weight: 600;
+      color: var(--purple);
+      text-decoration: none;
+      font-size: 1.05rem;
+      transition: all 0.2s ease;
+    }
+
+    .button:hover {
+      background-color: var(--purple);
+      color: var(--white);
+      transform: translateY(-3px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+      color: var(--gray);
+      background: #f1f1f7;
+      border-top: 1px solid #ddd;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+      .button {
+        font-size: 1rem;
+        padding: 0.9rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>ENGL 285 - Library Workshop Resources</h1>
+  </header>
+
+  <main>
+    <ul>
+      <li><a class="button" href="https://researchguides.case.edu/english" target="_blank" rel="noopener">English Research Guide</a></li>
+      <li><a class="button" href="https://researchguides.case.edu/az/databases" target="_blank" rel="noopener">Databases List</a></li>
+      <li><a class="button" href="https://researchguides.case.edu/az/databases?q=project%20muse" target="_blank" rel="noopener">Project MUSE Database</a></li>
+      <li><a class="button" href="https://researchguides.case.edu/infolitksl" target="_blank" rel="noopener">Mastering Research @ KSL</a></li>
+      <li><a class="button" href="https://case.edu/library/research-tools/get-research-help" target="_blank" rel="noopener">Get Help from the Library</a></li>
+      <li><a class="button" href="https://case.edu/library/services/interlibrary-loan" target="_blank" rel="noopener">Request an Item through Interlibrary Loan</a></li>
+      <li><a class="button" href="https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_formatting_and_style_guide.html" target="_blank" rel="noopener">MLA Formatting and Style Guide</a></li>
+      <li><a class="button" href="https://owl.purdue.edu/owl/general_writing/common_writing_assignments/annotated_bibliographies/index.html" target="_blank" rel="noopener">Annotated Bibliography Tips and Info</a></li>
+    </ul>
+  </main>
+
+  <footer>
+    Kelvin Smith Library · Case Western Reserve University
+  </footer>
+</body>
+</html>
